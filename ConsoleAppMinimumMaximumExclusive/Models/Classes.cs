@@ -6,6 +6,7 @@ public class AnoEraComum
 {
     [Range(minimum: 0, maximum: int.MaxValue, MinimumIsExclusive = true)]
     public int Valor { get; set; }
+    
     public string Ano => $"{Valor} d.C.";
 
     [Required]
